@@ -80,7 +80,7 @@ The harmonized-dataset contains many of the most frequently used demographic and
 * [nsrr_bp_systolic](https://sleepdata.org/datasets/answers/variables/nsrr_bp_systolic) -  Systolic blood pressure
 * [nsrr_current_smoker](https://sleepdata.org/datasets/answers/variables/nsrr_current_smoker) -  Currently smoking cigarettes
 * [nsrr_ever_smoker](https://sleepdata.org/datasets/answers/variables/nsrr_ever_smoker) -  Ever smoked cigarettes
-* [nsrr_ahi_ chicago1999](https://sleepdata.org/datasets/answers/variables/nsrr_ahi_ chicago1999) -  Apnea-Hypopnea Index: (All apneas + hypopneas with >50% flow reduction or discernible flow reduction with >=3% desat or arousal) / hour of sleep
+* [nsrr_ahi_ chicago1999](https://sleepdata.org/datasets/answers/variables/nsrr_ahi_chicago1999) -  Apnea-Hypopnea Index: (All apneas + hypopneas with >50% flow reduction or discernible flow reduction with $\geq$ 3% desat or arousal) / hour of sleep
 * [nsrr_phrnumar_f1](https://sleepdata.org/datasets/answers/variables/nsrr_phrnumar_f1) -  Arousal Index: Number of arousals per hour of sleep from polysomnography
 * [nsrr_ttldursp_f1](https://sleepdata.org/datasets/answers/variables/nsrr_ttldursp_f1) -  Total Sleep Duration: the interval between sleep onset and sleep offset while the participant is asleep from polysomnography
 * [nsrr_pctdursp_s1](https://sleepdata.org/datasets/answers/variables/nsrr_pctdursp_s1) -  Percentage of total sleep duration (i.e., total sleep time, TST) in stage 1 from polysomnography
