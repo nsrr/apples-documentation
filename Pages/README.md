@@ -67,7 +67,7 @@ All personally identifiable information (PII) has been removed from the data fil
 
 The [covariate dataset files](:files_path:/datasets) (apples-dataset-0.1.0.csv and apples-harmonized-dataset-0.1.0.csv) contain 1,516 rows each. The first column (**appleid**) is the unique APPLES subject identifier that can be linked with PSG signal filenames. 
 
-The dataset columns are described in the accompanying data dictionary files. The **variables** **data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., 1=Female, 0=Male), which are described in the **domains** **data dictionary file. The **forms** **data dictionary files provide links between variables and the sleep questionnaire form.
+The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., 1=Female, 0=Male), which are described in the **domains** data dictionary file. The **forms** data dictionary files provide links between variables and the sleep questionnaire form.
 
 The history of the covariate dataset and data dictionary files have been tracked on GitHub (https://github.com/nsrr/apples-data-dictionary). 
 
@@ -120,7 +120,7 @@ Users must include the following text in any Acknowledgements:
 ## References
 
 -	APPLES on the National Sleep Research Resource (NSRR): https://sleepdata.org/datasets/apples/
-- APPLES on ClinicalTrials.gov: https://github.com/nsrr/answers-data-dictionary
+- APPLES on ClinicalTrials.gov: https://clinicaltrials.gov/ct2/show/results/NCT00051363 
 -	APPLES GitHub Data Dictionary: https://github.com/nsrr/apples-data-dictionary
 -	APPLES GitHub Documentation: https://github.com/nsrr/apples-documentation
 
