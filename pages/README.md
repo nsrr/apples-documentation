@@ -73,31 +73,29 @@ The history of the covariate dataset and data dictionary files have been tracked
 
 The harmonized-dataset contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team to allow ready inter-operability with other NSRR datasets. Key variables include:
 
-* [nsrr_age](https://sleepdata.org/datasets/answers/variables/nsrr_age) -  Subject age
-* [nsrr_sex](https://sleepdata.org/datasets/answers/variables/nsrr_sex) -  Subject sex
-* [nsrr_race](https://sleepdata.org/datasets/answers/variables/nsrr_race) -  Subject race
-* [nsrr_bp_diastolic](https://sleepdata.org/datasets/answers/variables/nsrr_bp_diastolic) -  Diastolic blood pressure
-* [nsrr_bp_systolic](https://sleepdata.org/datasets/answers/variables/nsrr_bp_systolic) -  Systolic blood pressure
-* [nsrr_current_smoker](https://sleepdata.org/datasets/answers/variables/nsrr_current_smoker) -  Currently smoking cigarettes
-* [nsrr_ever_smoker](https://sleepdata.org/datasets/answers/variables/nsrr_ever_smoker) -  Ever smoked cigarettes
-* [nsrr_ahi_ chicago1999](https://sleepdata.org/datasets/answers/variables/nsrr_ahi_chicago1999) -  Apnea-Hypopnea Index: (All apneas + hypopneas with >50% flow reduction or discernible flow reduction with $\geq$ 3% desat or arousal) / hour of sleep
-* [nsrr_phrnumar_f1](https://sleepdata.org/datasets/answers/variables/nsrr_phrnumar_f1) -  Arousal Index: Number of arousals per hour of sleep from polysomnography
-* [nsrr_ttldursp_f1](https://sleepdata.org/datasets/answers/variables/nsrr_ttldursp_f1) -  Total Sleep Duration: the interval between sleep onset and sleep offset while the participant is asleep from polysomnography
-* [nsrr_pctdursp_s1](https://sleepdata.org/datasets/answers/variables/nsrr_pctdursp_s1) -  Percentage of total sleep duration (i.e., total sleep time, TST) in stage 1 from polysomnography
-* [nsrr_pctdursp_s2](https://sleepdata.org/datasets/answers/variables/nsrr_pctdursp_s2) -  Percentage of total sleep duration (i.e., total sleep time, TST) in stage 2 from polysomnography
-* [nsrr_pctdursp_s3](https://sleepdata.org/datasets/answers/variables/nsrr_pctdursp_s3) -  Percentage of total sleep duration (i.e., total sleep time, TST) in stage 3/4 from polysomnography
-* [nsrr_pctdursp_sr](https://sleepdata.org/datasets/answers/variables/nsrr_pctdursp_sr) -  Percentage of total sleep duration (i.e., total sleep time, TST) in REM from polysomnography
-* [nsrr_ttldurws_f1](https://sleepdata.org/datasets/answers/variables/nsrr_ttldurws_f1) -  Wake After Sleep Onset: the total duration being awake between sleep onset and lights-on/out-bed time from polysomnography
-* [nsrr_ttleffsp_f1](https://sleepdata.org/datasets/answers/variables/nsrr_ttleffsp_f1) -  Sleep Efficiency: the ratio of total sleep duration (i.e., total sleep time) to in-bed period (i.e., time in bed) from polysomnography
-* [nsrr_ttllatsp_f1](https://sleepdata.org/datasets/answers/variables/nsrr_ttllatsp_f1) -  Sleep Latency: the interval between lights-out/in-bed time and sleep onset from polysomnography
-* [nsrr_ttlprdbd_f1](https://sleepdata.org/datasets/answers/variables/nsrr_ttlprdbd_f1) -  Total In-bed Period: the interval between lights off/in-bed time and lights on/out-bed time from polysomnography
-* [nsrr_ttlprdsp_s1s4](https://sleepdata.org/datasets/answers/variables/nsrr_ttlprdsp_s1s4) -  REM Sleep Latency: the interval between the first sleep epoch and REM sleep including wake
+* [nsrr_age](https://sleepdata.org/datasets/apples/variables/nsrr_age) -  Subject age
+* [nsrr_sex](https://sleepdata.org/datasets/apples/variables/nsrr_sex) -  Subject sex
+* [nsrr_race](https://sleepdata.org/datasets/apples/variables/nsrr_race) -  Subject race
+* [nsrr_bp_diastolic](https://sleepdata.org/datasets/apples/variables/nsrr_bp_diastolic) -  Diastolic blood pressure
+* [nsrr_bp_systolic](https://sleepdata.org/datasets/apples/variables/nsrr_bp_systolic) -  Systolic blood pressure
+* [nsrr_current_smoker](https://sleepdata.org/datasets/apples/variables/nsrr_current_smoker) -  Currently smoking cigarettes
+* [nsrr_ever_smoker](https://sleepdata.org/datasets/apples/variables/nsrr_ever_smoker) -  Ever smoked cigarettes
+* [nsrr_ahi_chicago1999](https://sleepdata.org/datasets/apples/variables/nsrr_ahi_chicago1999) -  Apnea-Hypopnea Index: (All apneas + hypopneas with >50% flow reduction or discernible flow reduction with ≥ 3% desat or arousal) / hour of sleep
+* [nsrr_phrnumar_f1](https://sleepdata.org/datasets/apples/variables/nsrr_phrnumar_f1) -  Arousal Index: Number of arousals per hour of sleep from polysomnography
+* [nsrr_ttldursp_f1](https://sleepdata.org/datasets/apples/variables/nsrr_ttldursp_f1) -  Total Sleep Duration: the interval between sleep onset and sleep offset while the participant is asleep from polysomnography
+* [nsrr_pctdursp_s1](https://sleepdata.org/datasets/apples/variables/nsrr_pctdursp_s1) -  Percentage of total sleep duration (i.e., total sleep time, TST) in stage 1 from polysomnography
+* [nsrr_pctdursp_s2](https://sleepdata.org/datasets/apples/variables/nsrr_pctdursp_s2) -  Percentage of total sleep duration (i.e., total sleep time, TST) in stage 2 from polysomnography
+* [nsrr_pctdursp_s3](https://sleepdata.org/datasets/apples/variables/nsrr_pctdursp_s3) -  Percentage of total sleep duration (i.e., total sleep time, TST) in stage 3/4 from polysomnography
+* [nsrr_pctdursp_sr](https://sleepdata.org/datasets/apples/variables/nsrr_pctdursp_sr) -  Percentage of total sleep duration (i.e., total sleep time, TST) in REM from polysomnography
+* [nsrr_ttldurws_f1](https://sleepdata.org/datasets/apples/variables/nsrr_ttldurws_f1) -  Wake After Sleep Onset: the total duration being awake between sleep onset and lights-on/out-bed time from polysomnography
+* [nsrr_ttleffsp_f1](https://sleepdata.org/datasets/apples/variables/nsrr_ttleffsp_f1) -  Sleep Efficiency: the ratio of total sleep duration (i.e., total sleep time) to in-bed period (i.e., time in bed) from polysomnography
+* [nsrr_ttllatsp_f1](https://sleepdata.org/datasets/apples/variables/nsrr_ttllatsp_f1) -  Sleep Latency: the interval between lights-out/in-bed time and sleep onset from polysomnography
+* [nsrr_ttlprdbd_f1](https://sleepdata.org/datasets/apples/variables/nsrr_ttlprdbd_f1) -  Total In-bed Period: the interval between lights off/in-bed time and lights on/out-bed time from polysomnography
+* [nsrr_ttlprdsp_s1s4](https://sleepdata.org/datasets/apples/variables/nsrr_ttlprdsp_s1s4) -  REM Sleep Latency: the interval between the first sleep epoch and REM sleep including wake
 
 #### PSG signal files (EDF/XML)
 
 Raw signal data are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
-
-Staging and event-level scoring annotations are shared in two XML formats (‘profusion’ and ‘nsrr’). These files contain the same underlying information. Staging in the profusion files is coded as follows: 0=Wake, 1=N1, 2=N3, 3=N3-4, 5=REM.
 
 
 ## Access and usage restrictions
@@ -128,6 +126,5 @@ Users must include the following text in any Acknowledgements:
 ## Questions?
 
 Please reach out to us at support@sleepdata.org or in the [Forum](https://sleepdata.org/forum) if you have questions.
-
 
 
