@@ -112,6 +112,7 @@ When using this dataset, users must cite the following:
 
 Users must include the following text in any Acknowledgements:
 
+ > The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
  > The Apnea Positive Pressure Long-term Efficacy Study (APPLES) was supported by the National Heart, Lung, and Blood Institute (U01HL68060).
 
 
