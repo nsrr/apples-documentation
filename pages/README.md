@@ -6,7 +6,6 @@ The Apnea Positive Pressure Long-term Efficacy Study (APPLES) was a NHLBI-sponso
 
 The BDC NSRR APPLES dataset includes raw polysomnography files, as well as data on neurocognitive function (i.e., attention and psychomotor function, learning and memory, executive and frontal-lobe function), daytime sleepiness, the maintenance of wakefulness test, mood, quality of life, PAP adherence, vitals, weight, demographics and other baseline characteristics. 
 
-
 ## Methods
 
 #### Sleep Study Design
@@ -55,17 +54,13 @@ The following survey instruments were implemented:
 * Beck Depression Inventory (BDI-I)
 * Hamilton Rating Scale for Depression (HAM-D)
 
-
 ## Data de-identification
 
-All personally identifiable information (PII) has been removed from the data files by the APPLES DCC.
-
+Data have been de-identified by the APPLES DCC, by removing all Protected Health Information (PHI) such as name, date of birth, and any other contact details. Each individual is identified only by a random [appleid](https://sleepdata.org/datasets/apples/variables/appleid) variable.
 
 ## Data overview
 
-#### Covariate/phenotype datasets (CSV)
-
-The [covariate dataset files](:files_path:/datasets) (apples-dataset-0.1.0.csv and apples-harmonized-dataset-0.1.0.csv) contain 1,516 rows each. The first column (**appleid**) is the unique APPLES subject identifier that can be linked with PSG signal filenames. 
+**[Covariate/phenotype datasets](:files_path:/datasets)** (apples-dataset-0.1.0.csv and apples-harmonized-dataset-0.1.0.csv) contain 1,516 rows each. The first column (**appleid**) is the unique APPLES subject identifier that can be linked with PSG signal filenames. 
 
 The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., 1=Female, 0=Male), which are described in the **domains** data dictionary file. The **forms** data dictionary files provide links between variables and the sleep questionnaire form.
 
@@ -93,14 +88,11 @@ The harmonized-dataset contains many of the most frequently used demographic and
 * [nsrr_ttlprdbd_f1](https://sleepdata.org/datasets/apples/variables/nsrr_ttlprdbd_f1) -  Total In-bed Period: the interval between lights off/in-bed time and lights on/out-bed time from polysomnography
 * [nsrr_ttlprdsp_s1s4](https://sleepdata.org/datasets/apples/variables/nsrr_ttlprdsp_s1s4) -  REM Sleep Latency: the interval between the first sleep epoch and REM sleep including wake
 
-#### PSG signal files (EDF/XML)
-
-Raw signal data are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
-
+**[Raw PSG signal data](:files_path:/PSG)** are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
 
 ## Access and usage restrictions
-No restriction for access.
 
+The APPLES dataset is generally only available for non-commercial use. For inquiries regarding commercial use please contact Kara Griffin (Kara.Griffin@stlukes-stl.com) and Clete A. Kushida (clete@stanford.edu).
 
 ## Citation and acknowledgement
 
@@ -112,9 +104,8 @@ When using this dataset, users must cite the following:
 
 Users must include the following text in any Acknowledgements:
 
- > The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
  > The Apnea Positive Pressure Long-term Efficacy Study (APPLES) was supported by the National Heart, Lung, and Blood Institute (U01HL68060).
-
+ > The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
 
 ## References
 
@@ -122,7 +113,6 @@ Users must include the following text in any Acknowledgements:
 - APPLES on ClinicalTrials.gov: https://clinicaltrials.gov/ct2/show/results/NCT00051363 
 -	APPLES GitHub Data Dictionary: https://github.com/nsrr/apples-data-dictionary
 -	APPLES GitHub Documentation: https://github.com/nsrr/apples-documentation
-
 
 ## Questions?
 
