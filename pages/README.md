@@ -72,12 +72,15 @@ The harmonized-dataset contains many of the most frequently used demographic and
 <details>
   <summary>Expand to see the list of key harmonized variables:</summary>
 
-* [nsrr_age](:variables_path:/nsrr_age) -  Subject age
-* [nsrr_sex](:variables_path:/nsrr_sex) -  Subject sex
-* [nsrr_race](:variables_path:/nsrr_race) -  Subject race
-* [nsrr_bp_diastolic](:variables_path:/nsrr_bp_diastolic) -  Diastolic blood pressure
-* [nsrr_bp_systolic](:variables_path:/nsrr_bp_systolic) -  Systolic blood pressure
-* [nsrr_current_smoker](:variables_path:/nsrr_current_smoker) -  Currently smoking cigarettes
+<a href=":variables_path:/nsrr_age">nsrr_age</a> <br>
+<a href=":variables_path:/nsrr_sex">nsrr_sex</a> <br>
+
+* [nsrr_age](:variables_path:/nsrr_age) -  Subject age <br>
+* [nsrr_sex](:variables_path:/nsrr_sex) -  Subject sex <br>
+* [nsrr_race](:variables_path:/nsrr_race) -  Subject race <br>
+* [nsrr_bp_diastolic](:variables_path:/nsrr_bp_diastolic) -  Diastolic blood pressure <br>
+* [nsrr_bp_systolic](:variables_path:/nsrr_bp_systolic) -  Systolic blood pressure <br>
+* [nsrr_current_smoker](:variables_path:/nsrr_current_smoker) -  Currently smoking cigarettes <br>
 * [nsrr_ever_smoker](:variables_path:/nsrr_ever_smoker) -  Ever smoked cigarettes
 * [nsrr_ahi_chicago1999](:variables_path:/nsrr_ahi_chicago1999) -  Apnea-Hypopnea Index: (All apneas + hypopneas with >50% flow reduction or discernible flow reduction with ≥ 3% desat or arousal) / hour of sleep
 * [nsrr_phrnumar_f1](:variables_path:/nsrr_phrnumar_f1) -  Arousal Index: Number of arousals per hour of sleep from polysomnography
@@ -130,5 +133,4 @@ Users must include the following text in any Acknowledgements:
 ## Questions?
 
 Please reach out to us at support@sleepdata.org or in the [Forum](https://sleepdata.org/forum) if you have questions.
-
 
