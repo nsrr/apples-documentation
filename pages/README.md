@@ -60,13 +60,17 @@ Data have been de-identified by the APPLES DCC, by removing all Protected Health
 
 ## Data overview
 
-**[Covariate/phenotype datasets](:files_path:/datasets)** (apples-dataset-0.1.0.csv and apples-harmonized-dataset-0.1.0.csv) contain 1,516 rows each. The first column (**appleid**) is the unique APPLES subject identifier that can be linked with PSG signal filenames. 
+### Covariate/phenotype datasets
+[Covariate csv files](:files_path:/datasets) (apples-dataset-0.1.0.csv and apples-harmonized-dataset-0.1.0.csv) contain 1,516 rows each. The first column ([appleid](:variable_path:/appleid)) is the unique APPLES subject identifier. Use the [fileid](:variable_path:/fileid) column to link covariate datasets to diagnostic PSG files.
 
 The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., 1=Female, 0=Male), which are described in the **domains** data dictionary file. The **forms** data dictionary files provide links between variables and the sleep questionnaire form.
 
 The history of the covariate dataset and data dictionary files have been tracked on GitHub (https://github.com/nsrr/apples-data-dictionary). 
 
-The harmonized-dataset contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team to allow ready inter-operability with other NSRR datasets. Key variables include:
+The harmonized-dataset contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team to allow ready inter-operability with other NSRR datasets. 
+
+<details>
+  <summary>Expand to see the list of key harmonized variables:</summary>
 
 * [nsrr_age](:variables_path:/nsrr_age) -  Subject age
 * [nsrr_sex](:variables_path:/nsrr_sex) -  Subject sex
@@ -88,7 +92,10 @@ The harmonized-dataset contains many of the most frequently used demographic and
 * [nsrr_ttlprdbd_f1](:variables_path:/nsrr_ttlprdbd_f1) -  Total In-bed Period: the interval between lights off/in-bed time and lights on/out-bed time from polysomnography
 * [nsrr_ttlprdsp_s1s4](:variables_path:/nsrr_ttlprdsp_s1s4) -  REM Sleep Latency: the interval between the first sleep epoch and REM sleep including wake
 
-**[Raw PSG signal data](:files_path:/PSG)** are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
+</details>  
+
+### PSG data
+[Raw PSG data files](:files_path:/PSG) are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
 
 ## Access and usage restrictions
 
