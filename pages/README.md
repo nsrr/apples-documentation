@@ -72,8 +72,15 @@ The harmonized-dataset contains many of the most frequently used demographic and
 <details>
   <summary>Expand to see the list of key harmonized variables:</summary>
 
-<li> <a href=":variables_path:/nsrr_age">nsrr_age</a> -  Subject age <br>
-<li> <a href=":variables_path:/nsrr_sex">nsrr_sex</a> -  Subject sex <br>
+| Variable   | Label  |
+|---|---|
+| <a href=":variables_path:/nsrr_age">nsrr_age</a>   | Subject age  |
+| <a href=":variables_path:/nsrr_sex">nsrr_sex</a>  | Subject sex  |
+| <a href=":variables_path:/nsrr_race">nsrr_race</a>  | Subject race  |
+  
+- <a href=":variables_path:/nsrr_age">nsrr_age</a> - Subject age
+- <a href=":variables_path:/nsrr_sex">nsrr_sex</a> - Subject sex
+
 <li> <a href=":variables_path:/nsrr_race">nsrr_race</a> -  Subject race <br>
 <li> <a href=":variables_path:/nsrr_bp_diastolic">nsrr_bp_diastolic</a> -  Diastolic blood pressure <br>
 <li> <a href=":variables_path:/nsrr_bp_systolic">nsrr_bp_systolic</a> -  Systolic blood pressure <br>
