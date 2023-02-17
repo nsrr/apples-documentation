@@ -72,11 +72,12 @@ The harmonized-dataset contains many of the most frequently used demographic and
 <details>
   <summary>Expand to see the list of key harmonized variables:</summary>
 
-| Variable   | Label  |
-|---|---|
-| <a href=":variables_path:/nsrr_age">nsrr_age</a>   | Subject age  |
-| <a href=":variables_path:/nsrr_sex">nsrr_sex</a>  | Subject sex  |
-| <a href=":variables_path:/nsrr_race">nsrr_race</a>  | Subject race  |
+  <table>
+    <tr><td><b>Variable</b></td><td><b>Label</b></td></tr>
+    <tr><td><a href=":variables_path:/nsrr_age">nsrr_age</a></td><td>Subject age</td></tr>
+    <tr><td><a href=":variables_path:/nsrr_sex">nsrr_sex</a></td><td>Subject sex</td></tr>
+    <tr><td><a href=":variables_path:/nsrr_race">nsrr_race</a></td><td>Subject race</td></tr>
+  </table>
   
 - <a href=":variables_path:/nsrr_age">nsrr_age</a> - Subject age
 - <a href=":variables_path:/nsrr_sex">nsrr_sex</a> - Subject sex
