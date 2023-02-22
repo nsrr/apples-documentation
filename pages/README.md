@@ -8,15 +8,15 @@ The BDC NSRR APPLES dataset includes raw polysomnography files, as well as data 
 
 ## Methods
 
-#### Sleep Study Design
+### Sleep Study Design
 
 Subjects whose pre-screening found symptoms indicative of OSA received clinical evaluation which included informed consent, screening questionnaires, history and physical examination and a medical assessment by a study physician. Subjects subsequently returned approximately 2-4 weeks later for a 24-h sleep laboratory visit, where a diagnostic PSG was performed to confirm the presence of OSA followed by a day of neurocognitive and maintenance of wakefulness testing. Follow-up overnight PSG study was repeated at the CPAP titration visit, the two month and six month post-CPAP neurocognitive visit. Studies were scheduled to allow at least 7 but no more than 9 hours in bed.
 
-#### Polysomnography Acquisition
+### Polysomnography Acquisition
 
 Overnight polysomnography (PSG) was recorded with Alice 4 System by Respironics. The sensors and recording montage consisted of the electroencephalogram (EEG, C3-M2, C4-M1, O2-M1 and O1-M2), electrooculogram (EOG, ROC-M1, LOC-M2), submentalis and anterior tibialis electromyograms (EMG), heart rate by 2-lead electrocardiogram, snoring intensity (anterior neck microphone), nasal pressure (nasal cannula), nasal/oral thermistor, thoracic and abdominal movement (piezo bands), and oxygen saturation (pulse oximetry). All PSGs were electronically transmitted to the Data Coordinating Center. 
 
-#### PSG Scoring
+### PSG Scoring
 
 PSGs were scored visually using Rechtschaffen and Kales (R&K) criteria by trained scoring technologists who received standardized training and will receive periodic inter-rater reliability assessments.
 
@@ -27,13 +27,13 @@ A summary of the scoring rules and key annotations are provided below:
 * Central Apneas/Hypopneas - identified if no displacement is noted on both chest and the abdominal inductance channels. Otherwise, events will be noted as “obstructive”. 
 * Obstructive Apneas/Hypopneas - identified by persistence of chest or abdominal respiratory effort during flow cessation. 
 
-#### Neurocognitive Testing
+### Neurocognitive Testing
 
 All neurocognitive testing was performed in the same predefined order for all subjects on the day after their diagnostic PSG. The testing was preceded by 2 training sessions. Typically, the first occurred several days or weeks before the diagnostic PSG, and the second on the night before the PSG. There were 3 prespecified primary neurocognitive outcomes, each representing 1 of 3 different neurocognitive domains: (1) attention and psychomotor function (Pathfinder Number Test [Pathfinder]), (2) learning and memory (Buschke Verbal Selective Reminding Test [BSRT]), and (3) executive and frontal-lobe function (Sustained Working Memory Test [SWMT], recorded using SAM Technology's EEG recording equipment, consisting of the SAM Technology Computer Interface Adaptor and timyapms).
 
 In addition to the primary neurocognitive outcomes, other secondary measures included in the APPLES test battery were exploratory neurobehavioral measures such as intelligence (Wechsler Abbreviated Scale of Intelligence [WASI]) sustained attention and psychomotor function (Psychomotor Vigilance Test [PVT]) and auditory information processing speed and flexibility, as well as calculation ability (Paced Auditory Serial Addition Test [PASAT]).
 
-#### Sleep, Psychological Mood and Quality of Life Survey Forms
+### Sleep, Psychological Mood and Quality of Life Survey Forms
 
 The Bedtime Questionnaire and Epworth Sleepiness Scale (ESS) were completed the evening before the PSG and a number of questionnaires are administered following the PSG, including two mood questionnaires (Profile of Mood States [POMS] and Beck Depression Inventory [BDI-I]), a quality of life questionnaire (Quality of Well-being Self-administered [QWB-SA]), the Morning Questionnaire, Fatigue Scale, Stanford Sleepiness Scale, and Calgary Sleep Apnea Quality of Life Index. 
 
