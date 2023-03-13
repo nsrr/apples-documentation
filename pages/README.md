@@ -97,8 +97,17 @@ The harmonized-dataset contains many of the most frequently used demographic and
 
 </details>  
 
-### PSG data
-[Raw PSG data files](:files_path:/PSG) are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
+### PSG Data
+
+There are 1,104 subjects with PSG data from the diagnostic visit (DX). Each subject has raw signal data (EDF) and scoring annotations. There are two file sets available, which are described in the table below.
+
+<table>
+   <tr><td><b>File type</b></td><td><b>File path</b></td><td><b>Description</b></td></tr>
+   <tr><td><b>Harmonized</b></td><td>  <a href=":files_path:/polysomnography">/polysomnography</a>
+    </td><td> Files processed and harmonized (from the <b>As is</b> file set) to match NSRR signal and annotation naming standards. The processing steps have been documented here (<a href="https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/apples">https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/apples </a>). </td></tr>
+   <tr><td><b>As is</b></td><td>  <a href=":files_path:/original/PSG Exports">/original/PSG Exports</a>  </td><td> Files directly from the APPLES group, with only dates removed from the EDF and annotation files. </td></tr>
+</table>
+
 
 ## Access and usage restrictions
 
