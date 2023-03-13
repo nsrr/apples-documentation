@@ -4,7 +4,7 @@ The Apnea Positive Pressure Long-term Efficacy Study (APPLES) was a NHLBI-sponso
 
 1,516 participants were enrolled since November 2003 and studied for up to 6 months over 11 visits, of which 1,105 were randomized to active vs. sham CPAP (REMstar Pro, Philips Respironics, Inc.) devices; the sham CPAP device closely simulates the airflow through the exhalation port and the operating noise of the active CPAP device. 1,098 participants were diagnosed with OSA contributed to the analysis of the primary outcome measures. The study was completed in August 2008.
 
-The BDC NSRR APPLES dataset includes raw polysomnography files, as well as data on neurocognitive function (i.e., attention and psychomotor function, learning and memory, executive and frontal-lobe function), daytime sleepiness, the maintenance of wakefulness test, mood, quality of life, PAP adherence, vitals, weight, demographics and other baseline characteristics. 
+The NSRR APPLES dataset includes as is and harmonized polysomnography files, as well as data on neurocognitive function, as well as data on neurocognitive function (i.e., attention and psychomotor function, learning and memory, executive and frontal-lobe function), daytime sleepiness, the maintenance of wakefulness test, mood, quality of life, PAP adherence, vitals, weight, demographics and other baseline characteristics. 
 
 ## Methods
 
@@ -63,7 +63,7 @@ Data have been de-identified by the APPLES DCC, by removing all Protected Health
 ### Covariate/phenotype datasets
 [Covariate csv files](:files_path:/datasets) (apples-dataset-0.1.0.csv and apples-harmonized-dataset-0.1.0.csv) contain data on 1,516 subjects from up to seven research visits. The [appleid](:variables_path:/appleid) column is the unique APPLES identifier. The [visitn](:variables_path:/visitn) column distinguishes different research visits, and the [fileid](:variables_path:/fileid) column links covariate datasets to diagnostic PSG files.
 
-The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., 1=Female, 0=Male), which are described in the **domains** data dictionary file. The **forms** data dictionary files provide links between variables and the sleep questionnaire form.
+The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., 1=Female, 0=Male), which are described in the **domains** data dictionary file.
 
 The history of the covariate dataset and data dictionary files have been tracked on GitHub (https://github.com/nsrr/apples-data-dictionary). 
 
