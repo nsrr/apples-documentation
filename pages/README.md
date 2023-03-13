@@ -61,7 +61,7 @@ Data have been de-identified by the APPLES DCC, by removing all Protected Health
 ## Data overview
 
 ### Covariate/phenotype datasets
-[Covariate csv files](:files_path:/datasets) (apples-dataset-0.1.0.csv and apples-harmonized-dataset-0.1.0.csv) contain data on 1,516 subjects from up to seven research visits. The [appleid](:variables_path:/appleid) column is the unique APPLES identifier. The [visitn](:variables_path:/visitn) column distinguishes different research visits, and the [fileid](:variables_path:/fileid) column links covariate datasets to diagnostic PSG files.
+[Covariate CSV files](:files_path:/datasets) (apples-dataset-0.1.0.csv and apples-harmonized-dataset-0.1.0.csv) contain data on 1,516 subjects from up to seven research visits. The [appleid](:variables_path:/appleid) column is the unique APPLES identifier. The [visitn](:variables_path:/visitn) column distinguishes different research visits, and the [fileid](:variables_path:/fileid) column links covariate datasets to diagnostic PSG files.
 
 The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., 1=Female, 0=Male), which are described in the **domains** data dictionary file.
 
